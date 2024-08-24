@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عفراكوش - اللعبة</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>اللعبة</h1>
+            <nav>
+                <a href="index.html">الصفحة الرئيسية</a>
+                <a href="invite.html">دعوة الأصدقاء</a>
+                <a href="stats.html">إحصائيات اللعبة</a>
+                <a href="settings.html">الإعدادات</a>
+            </nav>
+        </header>
+
+        <div class="game-section">
+            <div class="player-info">
+                <p>اسم المستخدم: <span id="username">أدخل اسمك</span></p>
+                <p>رصيدك: <span id="coins">100</span> Coins</p>
+            </div>
+
+            <div class="betting-section">
+                <input type="number" id="bet-amount" placeholder="أدخل مقدار الرهان" />
+                <button id="place-bet">راهن</button>
+            </div>
+
+            <div class="statistics-section">
+                <h2>إحصائيات اللعبة</h2>
+                <p>عدد مرات الفوز: <span id="win-count">0</span></p>
+                <p>عدد مرات الخسارة: <span id="lose-count">0</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
